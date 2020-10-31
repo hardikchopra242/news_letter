@@ -1,0 +1,80 @@
+body,head{
+	margin: 0px;
+}
+
+body { 
+  background: url(https://images.unsplash.com/photo-1538299431441-e7f480d55ff7?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80) no-repeat fixed center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: 2rem 3rem;
+}
+
+h1 {
+ font-family: 'Roboto', sans-serif;
+ color: #ffffff;
+ font-weight: 400;
+ letter-spacing: 0.1rem;
+ /*border-bottom: 2px solid #ffffff;*/
+
+}
+
+p{
+	padding: 15px;
+	color: #ffffff;
+	width: 60%;
+	text-align:justify;
+	font-size: 1.2rem;
+	background-color: rgba(0,0,0,0.4);
+	margin: 0 auto;
+	margin-top: 1.5rem;
+	min-width: 200px;
+}
+
+.button{
+	margin: 1.5rem;
+}
+
+.register{
+	height: 4rem;
+	width: 10rem;
+	border-radius:2rem 2rem 0 2rem;
+	background-color: #007bffa1;
+	border-color: #007bffa1;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: 0.02rem;
+	font-weight: 500;
+	color: #ffffff;
+	transition: all 1s;
+	text-transform: uppercase;
+
+}
+
+.register:focus{
+outline: none;
+	border-style: none;
+	box-shadow: none;
+}
+
+.register:select{
+	outline: none;
+	box-shadow: none;
+	border-style: none;
+  background-color:#007bff;
+	border-color: #007bff;
+}
+
+.register:active{
+	    background-color:#007bff;
+	border-color: #007bff;
+}
+
+.register:hover{
+    background-color:#007bff;
+	border-color: #007bff;
+	transform: scale(1.1);
+}
+
